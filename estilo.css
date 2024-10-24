@@ -1,0 +1,185 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: #dddddd;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+
+footer{
+    background-color: #000;
+    width: 100%;
+    margin-top: auto;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+}
+
+.marca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.logoUade {
+    height: 50px;
+    border-radius: 5px ;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 0.8rem;
+}  
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: auto;
+    border-radius: 30px ;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin: 5rem 2rem;
+    padding: 1rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #dddddd;
+    border-radius: 30px;
+}
+
+.listado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    padding-left: 1rem;
+}
+
+ul {
+    list-style: none;
+    font-size: 1rem;
+}
+
+
+.titulo {
+    font-weight: 700;
+}
+
+.parrafo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+}
+
+/*Start Responsive*/
+@media only screen and (max-width: 768px) {
+
+    *{
+        font-family: "Public Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        margin: 0px;
+      }
+    
+    header {
+    
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 3rem;
+    }
+    
+    h1 {
+        color: #fff;
+        font-weight: 500;
+        font-size: 3rem;
+    }
+    
+    .foto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        margin: auto;
+        border-radius: 30px ;
+        margin-bottom: 1rem;
+    }
+    
+    .container {    
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2rem;
+        flex-wrap: nowrap;
+    }
+    
+    .listado {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    ul {
+        list-style: none;
+        font-weight: 700;
+        font-size: larger;
+    }
+    
+    footer{
+        background-color: #000;
+    }
+    
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 125px;
+    }
+    
+    .logoUade {
+        height: 75px;
+    }
+
+}
+
+/*End Responsive*/
